@@ -11,7 +11,7 @@
 Nomulus is an open source, scalable, cloud-based service for operating
 [top-level domains](https://en.wikipedia.org/wiki/Top-level_domain) (TLDs). It
 is the authoritative source for the TLDs that it runs, meaning that it is
-responsible for tracking domain name ownership and handling registrations,
+responsible for tracking domain name ownership and handling registrations, 
 renewals, availability checks, and WHOIS requests. End-user registrants (i.e.
 people or companies that want to register a domain name) use an intermediate
 domain name registrar acting on their behalf to interact with the registry.
