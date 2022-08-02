@@ -31,6 +31,7 @@ import google.registry.cron.CronModule;
 import google.registry.cron.TldFanoutAction;
 import google.registry.dns.DnsModule;
 import google.registry.dns.PublishDnsUpdatesAction;
+import google.registry.batch.SendExpiringCertificateNotificationEmailAction;
 import google.registry.dns.ReadDnsQueueAction;
 import google.registry.dns.RefreshDnsAction;
 import google.registry.dns.writer.VoidDnsWriterModule;

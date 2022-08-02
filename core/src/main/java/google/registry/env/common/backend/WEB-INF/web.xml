@@ -280,6 +280,12 @@
     <url-pattern>/_dr/task/relockDomain</url-pattern>
   </servlet-mapping>
 
+  <!-- Background action to send notification emails to registrars with expiring certificate. -->
+  <servlet-mapping>
+    <servlet-name>backend-servlet</servlet-name>
+    <url-pattern>/_dr/task/sendExpiringCertificateNotificationEmail</url-pattern>
+  </servlet-mapping>
+
   <!-- Background action to wipe out PII fields of ContactHistory entities that
 have been in the database for a certain period of time. -->
   <servlet-mapping>
